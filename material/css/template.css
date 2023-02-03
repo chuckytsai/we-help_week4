@@ -1,0 +1,77 @@
+/* 網頁背景 */
+
+body {
+    background-image: url("../img/index.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    font-family: Arial rgb(218, 219, 141);
+}
+
+
+/* 隱藏音樂來源 */
+
+embed {
+    display: none;
+}
+
+
+/* 首頁招呼 */
+
+#verify {
+    color: rgb(240, 223, 222);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    justify-content: center;
+    font-size: 35px;
+    font-family: Courier;
+    font-weight: 1000;
+    text-shadow: 0.1em 0.1em rgb(29, 5, 5);
+}
+
+
+/* 請輸入帳號密碼 */
+
+.verifyInput {
+    color: rgb(247, 241, 241);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5%;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Courier;
+    text-shadow: 0.1em 0.2em rgb(180, 25, 25);
+    border: none;
+}
+
+input {
+    background-color: rgb(119, 61, 61);
+    outline: none;
+}
+
+a {
+    outline: none;
+}
+
+
+/* 帳號密碼輸入區域 */
+
+#IdPw {
+    display: flex;
+    margin-top: 5%;
+    margin: 0 auto;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+
+/* 登入按鈕 */
+
+#login {
+    margin-top: 10%;
+    background-color: rgb(58, 17, 17, 0.8);
+}

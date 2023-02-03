@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://127.0.0.1:3000/Alice/css/template.css">
+    <title>{{name}} signing in</title>
+</head>
+
+<style>
+    body {
+        background-image: url("http://127.0.0.1:3000/Alice/img/teatime.jpg");
+    }
+</style>
+
+<body>
+
+    <div>
+        <a href="/logout" class="verifyInput">Run</a>
+    </div>
+
+    <label id="verify">Welcome {{whatName}} ,to Wonderland</label>
+
+    <h2 class="verifyInput">Do you want tea or cookie?</h2>
+    <form id="IdPw" action="/IdPw" method="POST">
+
+    </form>
+
+    <audio id="myaudio" src="http://127.0.0.1:3000/Alice/media/action.mp3" controls="controls" autoplay hidden="true"></audio>
+</body>
+
+</html>
